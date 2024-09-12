@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+}
+
+h1 {
+  background-color: aqua;
+}
+
+.item__example {
+  background-color: brown;
+}
+
+#id__example {
+  background-color: chartreuse;
+}
+
+p[lang] {
+  background-color: darkblue;
+}
+
+.nested__selector p {
+  background-color: fuchsia;
+}
+
+.daughter__selector > p {
+  background-color: gold;
+}
+
+h2 + p {
+  background-color: indianred;
+}
+
+span ~ p {
+  background-color: khaki;
+}
+
+.item__style,
+#id__style {
+  background-color: blue;
+}
